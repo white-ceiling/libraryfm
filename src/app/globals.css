@@ -1,0 +1,52 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+:root {
+  --foreground-color: #000;
+  --background-color: #fff;
+  --result-background-color: #ddd;
+  --link-color: #93c5fd;
+}
+
+@media (prefers-color-scheme: dark) {
+  :root {
+    --foreground-color: #fff;
+    --result-background-color: #222;
+    --background-color: #000;
+    --text-color: #000;
+  }
+}
+
+body {
+  color: var(--foreground-color);
+  background-color: var(--background-color);
+}
+
+input:not([type="file"]), option, select {
+  color: var(--text-color);
+}
+input[type="text"]:not([id='query']):not([id='bio']) {
+  width: 150px;
+}
+
+input[type="number"] {
+  width: 75px;
+}
+
+a {
+  color: var(--link-color);
+}
+  
+a:hover {
+  text-decoration: underline;
+}
+
+.result {
+  background-color: var(--result-background-color);
+}
+@layer utilities {
+  .text-balance {
+    text-wrap: balance;
+  }
+}
