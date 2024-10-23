@@ -1,4 +1,8 @@
-#libraryfm
+# libraryfm
+
+Get pnpm and run `pnpm dev` and you will be able to search for and rediscover artists within your last.fm library.
+![alt text](screenshots/basic_search_example.png)
+---
 
 This is a [Next.js](https://nextjs.org/) project bootstrapped with [`create-next-app`](https://github.com/vercel/next.js/tree/canary/packages/create-next-app).
 
