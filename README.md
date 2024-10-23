@@ -2,6 +2,9 @@
 
 Get pnpm and run `pnpm dev` and you will be able to search for and rediscover artists within your last.fm library.
 ![alt text](screenshots/basic_search_example.png)
+- Filter for short or long tags to find funny or extremely specific tags
+- Filter for artists with or without certain genres, listen and discovery periods to help narrow down a search for a specific artist you forgot about
+- Explore other users' libraries in terms of genres, scrobble counts, and discovery periods, which the last.fm website does not provide
 ---
 
 This is a [Next.js](https://nextjs.org/) project bootstrapped with [`create-next-app`](https://github.com/vercel/next.js/tree/canary/packages/create-next-app).
